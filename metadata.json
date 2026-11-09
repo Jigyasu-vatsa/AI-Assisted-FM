@@ -1,0 +1,8 @@
+{
+  "name": "AI-Assisted Zero Waste Food Management - Circular Economy Platform",
+  "description": "AI-Assisted Web-based circular economy framework for sustainable food redistribution connecting providers, receivers, community volunteers, and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
