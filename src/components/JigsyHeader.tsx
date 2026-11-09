@@ -202,7 +202,7 @@ export const JigsyHeader: React.FC = () => {
                 {subtitleIndex === 0 ? (
                   <span className="text-emerald-300 font-medium">जिज्ञासु ईक्षण ग्रंथि समृद्धि युक्ति</span>
                 ) : (
-                  <span className="text-amber-200 uppercase tracking-widest font-mono text-[10px] sm:text-xs">
+                  <span className="text-amber-200 tracking-widest font-mono text-[10px] sm:text-xs">
                     JIGYASU INTEGRATED GLOBAL SERVICES with YOU
                   </span>
                 )}
@@ -265,6 +265,59 @@ export const JigsyHeader: React.FC = () => {
               >
                 Workspaces
               </button>
+              
+              {/* Nexus (Self-contained hover dropdown) */}
+              <div className="relative group py-2">
+                {/* Trigger */}
+                <div className="flex items-center gap-1 cursor-pointer select-none text-slate-700 hover:text-rose-700 transition-colors">
+                  <span>Nexus</span>
+                  <svg
+                    className="w-3 h-3 opacity-60 transition-transform group-hover:rotate-180"
+                     viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </div>
+
+                {/* Dropdown Menu */}
+                <div className="hidden group-hover:block absolute left-0 top-full pt-1 w-72 z-50 text-left whitespace-normal select-none">
+                  <div className="rounded-xl shadow-2xl p-2.5 border border-slate-800 bg-slate-900 text-slate-200 flex flex-col w-full whitespace-normal">
+                   
+                    <a
+                      href="https://zerowfm.jigsy.in/"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full block text-left px-3 py-1.5 rounded-lg text-xs font-bold whitespace-normal transition-colors hover:bg-slate-800 hover:text-white"
+                    >
+                      Zero Waste Food Management
+                    </a>
+
+                    <a
+                      href="https://aifm.jigsy.in/"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full block text-left px-3 py-1.5 rounded-lg text-xs font-bold whitespace-normal transition-colors hover:bg-slate-800 hover:text-white"
+                    >
+                      AI-Assisted Food Management
+                    </a>
+
+                    <a
+                      href="#https://ctfm.jigsy.in/"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full block text-left px-3 py-1.5 rounded-lg text-xs font-bold whitespace-normal transition-colors hover:bg-slate-800 hover:text-white"
+                    >
+                      Cyber Trusted Food Management
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
               <a
                 href="https://jigsy.in"
                 target="_blank"
