@@ -234,11 +234,11 @@ export const JigsyFooter: React.FC<Props> = ({ onOpenLegal }) => {
         <div className="pt-6 border-t border-slate-800/80 text-[11px] text-slate-400 space-y-2 text-center">
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1">
             <span className="font-semibold text-slate-300">जिज्ञासु ईक्षण ग्रंथि समृद्धि युक्ति</span>
-            <span>•</span>
+            <span> {" "} </span>
             <span>
               DPIIT: <strong className="text-slate-200 font-mono">DIPP228528</strong>
             </span>
-            <span>•</span>
+            <span> {" "} </span>
             <span>
               GSTIN: <strong className="text-slate-200 font-mono">10AAHCJ0404B1ZN</strong>
             </span>
@@ -248,11 +248,11 @@ export const JigsyFooter: React.FC<Props> = ({ onOpenLegal }) => {
             <span>
               MSME: <strong className="text-slate-200 font-mono">UDYAM-BR-34-0051280</strong>
             </span>
-            <span>•</span>
+            <span> {" "} </span>
             <span>
               CIN: <strong className="text-slate-200 font-mono">U62099BR2025PTC078592</strong>
             </span>
-            <span>•</span>
+            <span> {" "} </span>
             <span className="italic text-slate-300">
               Jigyasu Integrated Global Services with You
             </span>
